@@ -1,0 +1,4005 @@
+{
+  "sha256": "4c64c997bc766d0f07db232f2190190d35e88b99ee236673c510bdb08137b1a6",
+  "methods": {
+    "std.clamp<int>": [
+      {
+        "id": "m_060000e9",
+        "token": "0x60000e9",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.Init": [
+      {
+        "id": "m_06000107",
+        "token": "0x6000107",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.Compare": [
+      {
+        "id": "m_06000109",
+        "token": "0x6000109",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.SwapNext": [
+      {
+        "id": "m_0600010a",
+        "token": "0x600010a",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.ShiftNext": [
+      {
+        "id": "m_0600010b",
+        "token": "0x600010b",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.IsOriginNext": [
+      {
+        "id": "m_0600010c",
+        "token": "0x600010c",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "u8"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextMino.ViewNext": [
+      {
+        "id": "m_0600010d",
+        "token": "0x600010d",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          []
+        ]
+      },
+      {
+        "id": "m_0600010e",
+        "token": "0x600010e",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "NextIterator.IsTrustNext": [
+      {
+        "id": "m_0600010f",
+        "token": "0x600010f",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.Init": [
+      {
+        "id": "m_06000110",
+        "token": "0x6000110",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.AddCommands": [
+      {
+        "id": "m_06000111",
+        "token": "0x6000111",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.AddCommandSoftDrop": [
+      {
+        "id": "m_06000112",
+        "token": "0x6000112",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "i8"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.HardDrop": [
+      {
+        "id": "m_06000113",
+        "token": "0x6000113",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.SoftDrop": [
+      {
+        "id": "m_06000114",
+        "token": "0x6000114",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.SoftDropOnce": [
+      {
+        "id": "m_06000115",
+        "token": "0x6000115",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.MoveLeft": [
+      {
+        "id": "m_06000116",
+        "token": "0x6000116",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.MoveRight": [
+      {
+        "id": "m_06000117",
+        "token": "0x6000117",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.RotateA": [
+      {
+        "id": "m_06000118",
+        "token": "0x6000118",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.RotateB": [
+      {
+        "id": "m_06000119",
+        "token": "0x6000119",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.SwapHold": [
+      {
+        "id": "m_0600011a",
+        "token": "0x600011a",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Command.IsFirstHold": [
+      {
+        "id": "m_0600011b",
+        "token": "0x600011b",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "GamePack.LockDown": [
+      {
+        "id": "m_0600011c",
+        "token": "0x600011c",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "GamePack.IsSafe": [
+      {
+        "id": "m_0600011d",
+        "token": "0x600011d",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchResult.Clear": [
+      {
+        "id": "m_0600011e",
+        "token": "0x600011e",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.Init": [
+      {
+        "id": "m_0600011f",
+        "token": "0x600011f",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.End": [
+      {
+        "id": "m_06000120",
+        "token": "0x6000120",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.IsSameAs": [
+      {
+        "id": "m_06000121",
+        "token": "0x6000121",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.SetPPTData": [
+      {
+        "id": "m_06000122",
+        "token": "0x6000122",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.ResetPPTData": [
+      {
+        "id": "m_06000123",
+        "token": "0x6000123",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.SetNewCurrent": [
+      {
+        "id": "m_06000124",
+        "token": "0x6000124",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "RootNode.GetDelay": [
+      {
+        "id": "m_06000126",
+        "token": "0x6000126",
+        "signature": [
+          [
+            8,
+            "f64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ConfigAI.UseHold": [
+      {
+        "id": "m_06000139",
+        "token": "0x6000139",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.BeamSize": [
+      {
+        "id": "m_0600013b",
+        "token": "0x600013b",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.UseTDOpeners": [
+      {
+        "id": "m_0600013d",
+        "token": "0x600013d",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.UsePCstack": [
+      {
+        "id": "m_06000148",
+        "token": "0x6000148",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.UseS4W": [
+      {
+        "id": "m_0600014a",
+        "token": "0x600014a",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.LoopTemplate": [
+      {
+        "id": "m_0600014c",
+        "token": "0x600014c",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.ThreadCount": [
+      {
+        "id": "m_0600014e",
+        "token": "0x600014e",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.MinDepth": [
+      {
+        "id": "m_06000150",
+        "token": "0x6000150",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          []
+        ]
+      }
+    ],
+    "ConfigAI.TakeOverTime": [
+      {
+        "id": "m_06000155",
+        "token": "0x6000155",
+        "signature": [
+          [
+            8,
+            "f64"
+          ],
+          []
+        ]
+      }
+    ],
+    "EvaluateAI.ReadConfig": [
+      {
+        "id": "m_060001aa",
+        "token": "0x60001aa",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "EvaluateAI.SetTrustRate": [
+      {
+        "id": "m_060001ac",
+        "token": "0x60001ac",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.Evaluate": [
+      {
+        "id": "m_060001ad",
+        "token": "0x60001ad",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.EvaluateFirst": [
+      {
+        "id": "m_060001ae",
+        "token": "0x60001ae",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetHeight": [
+      {
+        "id": "m_060001af",
+        "token": "0x60001af",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetWellColumn": [
+      {
+        "id": "m_060001b0",
+        "token": "0x60001b0",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetUpDown": [
+      {
+        "id": "m_060001b1",
+        "token": "0x60001b1",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetGround": [
+      {
+        "id": "m_060001b2",
+        "token": "0x60001b2",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetUnderground": [
+      {
+        "id": "m_060001b3",
+        "token": "0x60001b3",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetResource": [
+      {
+        "id": "m_060001b4",
+        "token": "0x60001b4",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetResource.<lambda_8c9e12ac961c12ee39b9c13f75d72e4a>.()": [
+      {
+        "id": "m_060001b5",
+        "token": "0x60001b5",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchPcBoard": [
+      {
+        "id": "m_060001b6",
+        "token": "0x60001b6",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchPcBoard.<lambda_739bd6c1e87a42facbb5f48d1ba94854>.()": [
+      {
+        "id": "m_060001b7",
+        "token": "0x60001b7",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchPcBoard.<lambda_739bd6c1e87a42facbb5f48d1ba94854>.().<lambda_f81918460c3f50cc28e384a7fc240bd6>.()": [
+      {
+        "id": "m_060001b8",
+        "token": "0x60001b8",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchPcBoard.<lambda_888f9be448fa5ed5191333672eefda14>.()": [
+      {
+        "id": "m_060001b9",
+        "token": "0x60001b9",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchPcBoard.<lambda_a87b905cacd1e293ef5d41cd327eb924>.()": [
+      {
+        "id": "m_060001ba",
+        "token": "0x60001ba",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTsd": [
+      {
+        "id": "m_060001bb",
+        "token": "0x60001bb",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst": [
+      {
+        "id": "m_060001bc",
+        "token": "0x60001bc",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst.<lambda_d6e886b4bb45e8fed98eb1be702b6e35>.()": [
+      {
+        "id": "m_060001bd",
+        "token": "0x60001bd",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst.<lambda_0dcbe136e54b1a684f168c0e95b3e906>.()": [
+      {
+        "id": "m_060001be",
+        "token": "0x60001be",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst.<lambda_6695eb722b3a150a8af65ef52c2e1998>.()": [
+      {
+        "id": "m_060001bf",
+        "token": "0x60001bf",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst.<lambda_a670b1f2c4689e867fa665310ee8795c>.()": [
+      {
+        "id": "m_060001c0",
+        "token": "0x60001c0",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchTst.<lambda_0efe2dec8ce90e5c94e3903de871b7d3>.()": [
+      {
+        "id": "m_060001c1",
+        "token": "0x60001c1",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchDTCannon": [
+      {
+        "id": "m_060001c2",
+        "token": "0x60001c2",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchDTCannon.<lambda_1c3ac1ce2e80acd9da9542b87672723d>.()": [
+      {
+        "id": "m_060001c3",
+        "token": "0x60001c3",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchDTCannon.<lambda_23b478e54dd1555e929be7ec910e4e60>.()": [
+      {
+        "id": "m_060001c4",
+        "token": "0x60001c4",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.SearchDTCannon.<lambda_e8ff65d262aaee0caf7c6a1ce41c8320>.()": [
+      {
+        "id": "m_060001c5",
+        "token": "0x60001c5",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetContBonus": [
+      {
+        "id": "m_060001c6",
+        "token": "0x60001c6",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.GetFinalAction": [
+      {
+        "id": "m_060001c7",
+        "token": "0x60001c7",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.ReadEvalWeight": [
+      {
+        "id": "m_060001c8",
+        "token": "0x60001c8",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "EvaluateAI.TransitionWeight": [
+      {
+        "id": "m_060001c9",
+        "token": "0x60001c9",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.TransitionWeight.<lambda_e0294d7800ad767f6a04e30d1417b624>.()": [
+      {
+        "id": "m_060001ca",
+        "token": "0x60001ca",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "EvaluateAI.EvenOrOdd": [
+      {
+        "id": "m_060001cb",
+        "token": "0x60001cb",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandedBaby.AddBaby": [
+      {
+        "id": "m_060001e2",
+        "token": "0x60001e2",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandedBaby.ClearBaby": [
+      {
+        "id": "m_060001e3",
+        "token": "0x60001e3",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandedBaby.GetFilteredCount": [
+      {
+        "id": "m_060001e4",
+        "token": "0x60001e4",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandedChild.AddChild": [
+      {
+        "id": "m_060001e5",
+        "token": "0x60001e5",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandedChild.ClearChild": [
+      {
+        "id": "m_060001e6",
+        "token": "0x60001e6",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ReadConfig": [
+      {
+        "id": "m_060001e8",
+        "token": "0x60001e8",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "ExpandAI.ExpandNode": [
+      {
+        "id": "m_060001ea",
+        "token": "0x60001ea",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OverrideSameNode": [
+      {
+        "id": "m_060001eb",
+        "token": "0x60001eb",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.DeleteSameNode": [
+      {
+        "id": "m_060001ec",
+        "token": "0x60001ec",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.RegistChildNode": [
+      {
+        "id": "m_060001ed",
+        "token": "0x60001ed",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveRotateB": [
+      {
+        "id": "m_060001ee",
+        "token": "0x60001ee",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveRotateA": [
+      {
+        "id": "m_060001ef",
+        "token": "0x60001ef",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveMoveL": [
+      {
+        "id": "m_060001f0",
+        "token": "0x60001f0",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveMoveR": [
+      {
+        "id": "m_060001f1",
+        "token": "0x60001f1",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveFinB": [
+      {
+        "id": "m_060001f2",
+        "token": "0x60001f2",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.TryDeriveFinA": [
+      {
+        "id": "m_060001f3",
+        "token": "0x60001f3",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.GetAboveCell": [
+      {
+        "id": "m_060001f4",
+        "token": "0x60001f4",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandBaseNode": [
+      {
+        "id": "m_060001f5",
+        "token": "0x60001f5",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandDeriveNode": [
+      {
+        "id": "m_060001f6",
+        "token": "0x60001f6",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandDeriveNode.<lambda_f28e1672729a73636a781f51242a41a3>.()": [
+      {
+        "id": "m_060001f7",
+        "token": "0x60001f7",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.ExpandTemplateNode": [
+      {
+        "id": "m_060001f8",
+        "token": "0x60001f8",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OpExpandNode": [
+      {
+        "id": "m_060001f9",
+        "token": "0x60001f9",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OpExpandDeriveNode": [
+      {
+        "id": "m_060001fa",
+        "token": "0x60001fa",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OpExpandDeriveNode.<lambda_d3d1618b79f16bd8a538547cb3403cdc>.()": [
+      {
+        "id": "m_060001fb",
+        "token": "0x60001fb",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OpTryDeriveMoveL": [
+      {
+        "id": "m_060001fc",
+        "token": "0x60001fc",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "ExpandAI.OpTryDeriveMoveR": [
+      {
+        "id": "m_060001fd",
+        "token": "0x60001fd",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "std.partition<class ExpandAI::BabyNode *,class <lambda_61179e73ac03bfcb70f9f581bee98741> >": [
+      {
+        "id": "m_060001fe",
+        "token": "0x60001fe",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "u8"
+            ]
+          ]
+        ]
+      }
+    ],
+    "std.min_element<int const * const>": [
+      {
+        "id": "m_060001ff",
+        "token": "0x60001ff",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.MultiEvaluator.ThreadStart": [
+      {
+        "id": "m_06000202",
+        "token": "0x6000202",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "u8"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.MultiEvaluator.Evaluate": [
+      {
+        "id": "m_06000203",
+        "token": "0x6000203",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "m_06000205",
+        "token": "0x6000205",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.MultiEvaluator.OpEvaluate": [
+      {
+        "id": "m_06000204",
+        "token": "0x6000204",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "m_06000206",
+        "token": "0x6000206",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Timer.Elapsed": [
+      {
+        "id": "m_06000207",
+        "token": "0x6000207",
+        "signature": [
+          [
+            8,
+            "f64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.Init": [
+      {
+        "id": "m_06000208",
+        "token": "0x6000208",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "SearchAI.ReadConfig": [
+      {
+        "id": "m_0600020a",
+        "token": "0x600020a",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "SearchAI.Search": [
+      {
+        "id": "m_0600020e",
+        "token": "0x600020e",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.MaxElement": [
+      {
+        "id": "m_0600020f",
+        "token": "0x600020f",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.WriteResult": [
+      {
+        "id": "m_06000210",
+        "token": "0x6000210",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.SetNextOption": [
+      {
+        "id": "m_06000211",
+        "token": "0x6000211",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.OpSearch": [
+      {
+        "id": "m_06000212",
+        "token": "0x6000212",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "SearchAI.OpSearch.<lambda_099289375027996522107705b64f379c>.()": [
+      {
+        "id": "m_06000213",
+        "token": "0x6000213",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "std.partial_sort<class Node *,class Node::Cmp>": [
+      {
+        "id": "m_06000214",
+        "token": "0x6000214",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "u8"
+            ]
+          ]
+        ]
+      }
+    ],
+    "std.partition<class Node *,class <lambda_da2c052616106645e3267ce170e2d352> >": [
+      {
+        "id": "m_06000215",
+        "token": "0x6000215",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              1,
+              "u8"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.ReadConfig": [
+      {
+        "id": "m_0600021e",
+        "token": "0x600021e",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.OpEvaluate": [
+      {
+        "id": "m_0600021f",
+        "token": "0x600021f",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.OpEvaluateFirst": [
+      {
+        "id": "m_06000220",
+        "token": "0x6000220",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners": [
+      {
+        "id": "m_06000221",
+        "token": "0x6000221",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_14e54676ce5206616bed77bce41d341a>.()": [
+      {
+        "id": "m_06000222",
+        "token": "0x6000222",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_fe249bc086b68a9421c1c76ecdac3486>.()": [
+      {
+        "id": "m_06000223",
+        "token": "0x6000223",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_108c49fcaaa0949ba63d3b3c78ffa50b>.()": [
+      {
+        "id": "m_06000224",
+        "token": "0x6000224",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_0b469ed1137ea66e825cc11f3076abc0>.()": [
+      {
+        "id": "m_06000225",
+        "token": "0x6000225",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_d074f7073cb1b50f9b3a51cc97d3ac69>.()": [
+      {
+        "id": "m_06000226",
+        "token": "0x6000226",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_b9ac1b0faf1da7f580724850dc2e89f6>.()": [
+      {
+        "id": "m_06000227",
+        "token": "0x6000227",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_b1a23f9b8711c7d137abd8b1a659723b>.()": [
+      {
+        "id": "m_06000228",
+        "token": "0x6000228",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_941226c50c504432332a46d81949e362>.()": [
+      {
+        "id": "m_06000229",
+        "token": "0x6000229",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_4c0d4af2cfd9820d773d2da182926c9b>.()": [
+      {
+        "id": "m_0600022a",
+        "token": "0x600022a",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_53a6608dd7390bfa4f870ea3e8197a39>.()": [
+      {
+        "id": "m_0600022b",
+        "token": "0x600022b",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_9b5b297af7e325bf3b3d1aa21402c2cf>.()": [
+      {
+        "id": "m_0600022c",
+        "token": "0x600022c",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_4594016e53f2b41b7851a0b332355dd1>.()": [
+      {
+        "id": "m_0600022d",
+        "token": "0x600022d",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_27e7d0bb335883baaed370e2d22b34ff>.()": [
+      {
+        "id": "m_0600022e",
+        "token": "0x600022e",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_803cfc64b9242f1d947b89e3b07083f7>.()": [
+      {
+        "id": "m_0600022f",
+        "token": "0x600022f",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_7bc55e71eb70732f4146b0bd0c456d7c>.()": [
+      {
+        "id": "m_06000230",
+        "token": "0x6000230",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_1523e11c91760c9dc36edeac6dc43a1e>.()": [
+      {
+        "id": "m_06000231",
+        "token": "0x6000231",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_c517164f7444a7162a555d2dd361f651>.()": [
+      {
+        "id": "m_06000232",
+        "token": "0x6000232",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.SearchTDOpeners.<lambda_db4883fb6b049868839cf39d69e1f13d>.()": [
+      {
+        "id": "m_06000233",
+        "token": "0x6000233",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.TDOpenersCmp": [
+      {
+        "id": "m_06000234",
+        "token": "0x6000234",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.OriginNextCmp": [
+      {
+        "id": "m_06000235",
+        "token": "0x6000235",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.DecisionTemplate": [
+      {
+        "id": "m_06000236",
+        "token": "0x6000236",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.DecisionLoopTemplate": [
+      {
+        "id": "m_06000237",
+        "token": "0x6000237",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "TemplateAI.UseTemplate": [
+      {
+        "id": "m_06000238",
+        "token": "0x6000238",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.InTemplate": [
+      {
+        "id": "m_0600023a",
+        "token": "0x600023a",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.BreakTemplate": [
+      {
+        "id": "m_0600023b",
+        "token": "0x600023b",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.FailTemplate": [
+      {
+        "id": "m_0600023c",
+        "token": "0x600023c",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.BreakCheck": [
+      {
+        "id": "m_0600023e",
+        "token": "0x600023e",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.OpDropCount": [
+      {
+        "id": "m_0600023f",
+        "token": "0x600023f",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.OpDropCountPlus": [
+      {
+        "id": "m_06000240",
+        "token": "0x6000240",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.OpDropCountSave": [
+      {
+        "id": "m_06000241",
+        "token": "0x6000241",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "TemplateAI.OpDropCountLoad": [
+      {
+        "id": "m_06000242",
+        "token": "0x6000242",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          []
+        ]
+      }
+    ],
+    "FallMino.Spawn": [
+      {
+        "id": "m_06000244",
+        "token": "0x6000244",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "FallMino.SpinA": [
+      {
+        "id": "m_06000245",
+        "token": "0x6000245",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "FallMino.SpinB": [
+      {
+        "id": "m_06000246",
+        "token": "0x6000246",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "FallMino.UpdateShape": [
+      {
+        "id": "m_06000247",
+        "token": "0x6000247",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "FallMino.GetCoordinate": [
+      {
+        "id": "m_06000248",
+        "token": "0x6000248",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "HoldMino.Init": [
+      {
+        "id": "m_06000249",
+        "token": "0x6000249",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "HoldMino.PPT1or2": [
+      {
+        "id": "m_0600024a",
+        "token": "0x600024a",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "HoldMino.ForPPT1": [
+      {
+        "id": "m_0600024b",
+        "token": "0x600024b",
+        "signature": [
+          [
+            1,
+            "u8"
+          ],
+          []
+        ]
+      }
+    ],
+    "Bit.PopCount": [
+      {
+        "id": "m_0600024c",
+        "token": "0x600024c",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Bit.Log2": [
+      {
+        "id": "m_0600024d",
+        "token": "0x600024d",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.Init": [
+      {
+        "id": "m_0600024e",
+        "token": "0x600024e",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.CollisionBoard": [
+      {
+        "id": "m_0600024f",
+        "token": "0x600024f",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.GetSpawnHeight": [
+      {
+        "id": "m_06000250",
+        "token": "0x6000250",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.CollisionDistance": [
+      {
+        "id": "m_06000251",
+        "token": "0x6000251",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.CollisionBottom": [
+      {
+        "id": "m_06000252",
+        "token": "0x6000252",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.CollisionLeft": [
+      {
+        "id": "m_06000253",
+        "token": "0x6000253",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.CollisionRight": [
+      {
+        "id": "m_06000254",
+        "token": "0x6000254",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.SrsA": [
+      {
+        "id": "m_06000255",
+        "token": "0x6000255",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.SrsB": [
+      {
+        "id": "m_06000256",
+        "token": "0x6000256",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.LockMino": [
+      {
+        "id": "m_06000257",
+        "token": "0x6000257",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.IsTspin": [
+      {
+        "id": "m_06000258",
+        "token": "0x6000258",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.ClearLine": [
+      {
+        "id": "m_06000259",
+        "token": "0x6000259",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.UpdateMaxHeight": [
+      {
+        "id": "m_0600025a",
+        "token": "0x600025a",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.PopCount": [
+      {
+        "id": "m_0600025b",
+        "token": "0x600025b",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Board.GetColumnHeight": [
+      {
+        "id": "m_0600025c",
+        "token": "0x600025c",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Others.Init": [
+      {
+        "id": "m_0600025d",
+        "token": "0x600025d",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Others.Totaling": [
+      {
+        "id": "m_0600025f",
+        "token": "0x600025f",
+        "signature": [
+          [
+            0,
+            "void"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ],
+    "_Xtime_get_ticks": [
+      {
+        "id": "m_060002d0",
+        "token": "0x60002d0",
+        "signature": [
+          [
+            8,
+            "i64"
+          ],
+          []
+        ]
+      }
+    ],
+    "std._Atomic_storage<enum SearchAI::MultiEvaluator::IsEvaluating::EvType,4>.load": [
+      {
+        "id": "m_0600033c",
+        "token": "0x600033c",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ]
+          ]
+        ]
+      }
+    ],
+    "Exchange": [
+      {
+        "id": "m_0a000083",
+        "token": "0xa000083",
+        "signature": [
+          [
+            4,
+            "i32"
+          ],
+          [
+            [
+              8,
+              "i64"
+            ],
+            [
+              4,
+              "i32"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "?timer@SearchAI@@0VTimer@@A": {
+      "id": "g_0400000f",
+      "size": 16,
+      "kind": "blob"
+    },
+    "?useTDOpeners@ConfigAI@@0_NA": {
+      "id": "g_040000b3",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?minDepth@ConfigAI@@0HA": {
+      "id": "g_040000b8",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?lifespan@ConfigAI@@0W4LifespanLevel@@A": {
+      "id": "g_040000c7",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?playStyle@ConfigAI@@0W4PlayStyleList@@A": {
+      "id": "g_040000cd",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?playerNo@ConfigAI@@0HA": {
+      "id": "g_040000ce",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?useDPC@ConfigAI@@0_NA": {
+      "id": "g_040000d5",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?speed@ConfigAI@@0W4SpeedLevel@@A": {
+      "id": "g_040000d9",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?loopTemplate@ConfigAI@@0_NA": {
+      "id": "g_040000da",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?useOffsetOff@ConfigAI@@0_NA": {
+      "id": "g_040000e0",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?takeOverTime@ConfigAI@@0NA": {
+      "id": "g_040000eb",
+      "size": 8,
+      "kind": "f64"
+    },
+    "?threadCount@ConfigAI@@0HA": {
+      "id": "g_040000ec",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?useS4W@ConfigAI@@0_NA": {
+      "id": "g_040000ef",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?viewNext@ConfigAI@@0HA": {
+      "id": "g_040000f1",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?viewNext@NextMino@@0HA": {
+      "id": "g_040000f2",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?autoCharSelect@ConfigAI@@0_NA": {
+      "id": "g_040000f8",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?beamSize@ConfigAI@@0HA": {
+      "id": "g_040000fb",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?useHold@ConfigAI@@0_NA": {
+      "id": "g_04000100",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?usePCstack@ConfigAI@@0_NA": {
+      "id": "g_04000101",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?trustRate@EvaluateAI@@0NA": {
+      "id": "g_0400012d",
+      "size": 8,
+      "kind": "f64"
+    },
+    "?useS4W@EvaluateAI@@0_NA": {
+      "id": "g_0400012e",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?isEvenBoard@EvaluateAI@@0_NA": {
+      "id": "g_0400012f",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?multiEvaluation@EvaluateAI@@0_NA": {
+      "id": "g_04000130",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?weightList@EvaluateAI@@0PEAVEvalWeight@1@EA": {
+      "id": "g_04000131",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?opponentIsPowerfulBoard@EvaluateAI@@0_NA": {
+      "id": "g_04000132",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?weight@EvaluateAI@@0PEAVEvalWeight@1@EA": {
+      "id": "g_04000133",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?opponentsCombo@EvaluateAI@@0HA": {
+      "id": "g_04000134",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?playStyle@EvaluateAI@@0W4PlayStyleList@@A": {
+      "id": "g_04000135",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?opponentIsPCBoard@EvaluateAI@@0_NA": {
+      "id": "g_04000136",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?A0xd017b33d.childI": {
+      "id": "g_0400013a",
+      "size": 660,
+      "kind": "blob"
+    },
+    "?A0xd017b33d.childSZTJL": {
+      "id": "g_0400013b",
+      "size": 660,
+      "kind": "blob"
+    },
+    "?babyNode@ExpandAI@@0PEAVBabyNode@1@EA": {
+      "id": "g_0400013c",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?expandedBaby@ExpandAI@@0PEAVExpandedBaby@1@EA": {
+      "id": "g_0400013d",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?A0xd017b33d.childO": {
+      "id": "g_0400013e",
+      "size": 160,
+      "kind": "blob"
+    },
+    "?expandedChild@ExpandAI@@0PEAVExpandedChild@1@EA": {
+      "id": "g_0400013f",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?useHold@ExpandAI@@0_NA": {
+      "id": "g_04000140",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?A0xd017b33d.MAX_CHILDREN": {
+      "id": "g_04000141",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?depthLimit@SearchAI@@0HA": {
+      "id": "g_04000142",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?maxBeamSize@SearchAI@@0HA": {
+      "id": "g_04000143",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?minDepth@SearchAI@@0HA": {
+      "id": "g_04000144",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?multiEvaluator@SearchAI@@0PEAVMultiEvaluator@1@EA": {
+      "id": "g_04000145",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?isSearching@SearchAI@@0_NA": {
+      "id": "g_04000146",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?threadCount@SearchAI@@0HA": {
+      "id": "g_04000147",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?A0x1b9e76ac.MAX_BEAMSIZE": {
+      "id": "g_04000148",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?tree@SearchAI@@0PEAVTree@1@EA": {
+      "id": "g_04000149",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?beamSizeLimit@SearchAI@@0HA": {
+      "id": "g_0400014a",
+      "size": 4,
+      "kind": "i32"
+    },
+    "__m2mep@??$_Atomic_address_as@HU?$_Atomic_padded@W4EvType@IsEvaluating@MultiEvaluator@SearchAI@@@std@@@std@@$$FYAPEDHAEBU?$_Atomic_padded@W4EvType@IsEvaluating@MultiEvaluator@SearchAI@@@0@@Z": {
+      "id": "g_0400014b",
+      "size": 8,
+      "kind": "i64"
+    },
+    "?useTemplate@TemplateAI@@0_NA": {
+      "id": "g_0400014e",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?loopTemplate@TemplateAI@@0_NA": {
+      "id": "g_0400014f",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?prevOpDropCount@TemplateAI@@0HA": {
+      "id": "g_04000150",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?useTDOpeners@TemplateAI@@0_NA": {
+      "id": "g_04000151",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?failTDOpeners@TemplateAI@@0_NA": {
+      "id": "g_04000152",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?opDropCount@TemplateAI@@0HA": {
+      "id": "g_04000153",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?useDPC@TemplateAI@@0_NA": {
+      "id": "g_04000154",
+      "size": 1,
+      "kind": "u8"
+    },
+    "?opType@TemplateAI@@0W4OpType@1@A": {
+      "id": "g_04000155",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?A0xa811dc96.srsRotateB": {
+      "id": "g_04000156",
+      "size": 896,
+      "kind": "blob"
+    },
+    "?A0xa811dc96.minoCoordinate": {
+      "id": "g_04000157",
+      "size": 896,
+      "kind": "blob"
+    },
+    "?A0xa811dc96.minoShape": {
+      "id": "g_04000158",
+      "size": 896,
+      "kind": "blob"
+    },
+    "?ppt@HoldMino@@0HA": {
+      "id": "g_04000159",
+      "size": 4,
+      "kind": "i32"
+    },
+    "?A0xa811dc96.?popArray@?1??PopCount@Bit@@SAHH@Z@4QBDB": {
+      "id": "g_0400015a",
+      "size": 1024,
+      "kind": "blob"
+    },
+    "?A0xa811dc96.srsRotateA": {
+      "id": "g_0400015b",
+      "size": 896,
+      "kind": "blob"
+    }
+  },
+  "overrides": {
+    "EvaluateAI.ReadEvalWeight": "weights_ready",
+    "std.partition<class ExpandAI::BabyNode *,class <lambda_61179e73ac03bfcb70f9f581bee98741> >": "partition_baby",
+    "SearchAI.MultiEvaluator.ThreadStart": "sequential_worker",
+    "SearchAI.Init": "engine_init",
+    "std.partial_sort<class Node *,class Node::Cmp>": "partial_sort",
+    "std.partition<class Node *,class <lambda_da2c052616106645e3267ce170e2d352> >": "partition_node",
+    "_Xtime_get_ticks": "ticks",
+    "std._Atomic_storage<enum SearchAI::MultiEvaluator::IsEvaluating::EvType,4>.load": "atomic_load",
+    "Exchange": "exchange"
+  },
+  "safety_guards": {
+    "Board.LockMino": "Reject out-of-bounds or overlapping four-cell landings before original memory writes"
+  }
+}

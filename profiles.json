@@ -1,0 +1,28 @@
+[
+  {
+    "name": "PPT2 Steam build 15220611 (2024-07-31)",
+    "game": 2,
+    "sha256": "02b556b57be7c2cc77a8b76a7c4b0ae64ef762fb55c9e2ab62e327c658cdbb86",
+    "delta": "-0x43320",
+    "addresses": {
+      "frames": "0x1eec5bc",
+      "match": "0x1d9edf8",
+      "mode": "0x789610",
+      "character_root": "0x1edb0b0",
+      "players": "0x1d3d0d0",
+      "network_manager": "0x1db06f8"
+    },
+    "character_layout": 2,
+    "status_source": "mode-and-class",
+    "verified": "live Steam/Proton PPT2: character navigation, Tetris gameplay, 40 placements including empty hold, swap hold, rotation and soft drop; player 2 won",
+    "menu": {
+      "player_pointers": [
+        104,
+        112
+      ],
+      "phase": 704,
+      "style": 589,
+      "controls": 683
+    }
+  }
+]

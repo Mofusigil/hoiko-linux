@@ -1,0 +1,16 @@
+player,1
+viewNext,5
+useHold,true
+beamSize,250
+useTDOpeners,false
+speed,100
+autoSelect,true
+playStyle,0
+useOffsetOff,true
+usePCstack,false
+useS4W,false
+loopTemplate,false
+threadCount,1
+minDepth,10
+lifespan,1440
+takeOverTime,5

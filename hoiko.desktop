@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Hoiko 控制面板
+Comment=PPT2 Bot · 速度与搜索设置
+Exec=/home/asriel/Projects/hoiko/hoiko gui
+Path=/home/asriel/Projects/hoiko
+Icon=/home/asriel/Projects/hoiko/assets/hoiko.svg
+Terminal=false
+Categories=Game;Utility;
+StartupNotify=true

@@ -1,0 +1,80 @@
+# Local tools and Python environments
+/.tools/
+.venv/
+venv/
+env/
+.tox/
+.nox/
+
+# CMake build trees and native compilation outputs
+/build*/
+/cmake-build-*/
+/out/
+/dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.pdb
+*.exe
+*.dll
+
+# Python caches and test reports
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Runtime logs, crash dumps, and captured game memory
+/logs/
+*.log
+/core
+/core.[0-9]*
+*.core
+*.dmp
+/reverse/
+
+# Local credentials and assistant configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.git-credentials
+/.aws/
+/.codex/
+/.agents/
+
+# Editor and desktop metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.directory
+
+# These .dll files are text parameters, not Windows libraries. Keep them
+# and native/generated/ tracked so Linux builds and runs from source.
+!/Hoiko_PPT_v0-beta1/config.dll
+!/Hoiko_PPT_v0-beta1/sprint.dll
+!/Hoiko_PPT_v0-beta1/ultra1.dll
+!/Hoiko_PPT_v0-beta1/ultra2.dll
+!/Hoiko_PPT_v0-beta1/wd.dll
+!/Hoiko_PPT_v0-beta1/we.dll
+!/Hoiko_PPT_v0-beta1/wo.dll
+!/Hoiko_PPT_v0-beta1/wr.dll
